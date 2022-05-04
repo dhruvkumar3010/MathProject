@@ -14,8 +14,8 @@ public class TestAddNumber {
 	
 		AddNumber mathDemo = new AddNumber();
 		
-	int result = mathDemo.add(5,3);
+	int result = mathDemo.add(50,100);
 	
-	assertEquals(result,8);
+	assertEquals(result,150);
 	}
 }

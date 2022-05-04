@@ -11,7 +11,7 @@ public class AddNumber {
 	public static void main(String[] args) {
 		
 		AddNumber mathDemo = new AddNumber();
-		int sum = mathDemo.add(5,4);
+		int sum = mathDemo.add(50,100);
 		
 		System.out.println("Sum is "+sum);
 		
