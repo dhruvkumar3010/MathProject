@@ -8,12 +8,20 @@ public class AddNumber {
 		return a+b;
 		}
 	
+	public int div(int a, int b) {
+		return a/b;
+	}
+	
 	public static void main(String[] args) {
 		
 		AddNumber mathDemo = new AddNumber();
-		int sum = mathDemo.add(5,4);
+		int sum = mathDemo.add(100,50);
+		
+		AddNumber mathDemo1 = new AddNumber();
+		int total = mathDemo1.div(100,50);
 		
 		System.out.println("Sum is "+sum);
+		System.out.println("Div is "+total);
 		
 	/*	int a = 5;
 		int b = 10;
